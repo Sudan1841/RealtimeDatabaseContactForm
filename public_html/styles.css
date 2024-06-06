@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : May 28, 2023, 11:00:32 PM
+    Author     : Abdulmajid Hassan
+*/
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.alert {
+  display: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.success-alert {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.close-btn {
+  float: right;
+  cursor: pointer;
+}

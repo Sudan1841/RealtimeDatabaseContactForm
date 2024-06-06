@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+          <title>Contact Form</title>
+        <meta charset="UTF-8">
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-fit=no">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Contact Form</h1>
+    <form id="contactForm">
+      <input type="text" id="Fname" placeholder="First Name" required>
+      <input type="text" id="Lname" placeholder="Last Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="tel" id="phone" placeholder="Phone" required>
+      <input type="text" id="inputAddress" placeholder="Address" required>
+      <input type="text" id="inputAddress2" placeholder="Address 2">
+      <input type="text" id="inputCity" placeholder="City" required>
+      <input type="text" id="inputState" placeholder="State" required>
+      <input type="text" id="inputZip" placeholder="Zip" required>
+      <input type="text" id="country" placeholder="Country" required>
+      <textarea id="message" placeholder="Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="myAlert" class="alert success-alert">
+      <span class="close-btn">&times;</span>
+      <p>Message sent successfully!</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<!--Analytics	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-analytics.js"></script>
+<!--App Check	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app-check.js"></script>
+<!--Authentication	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+<!--Cloud Firestore	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<!--Cloud Functions for Firebase Client SDK	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-functions.js"></script>
+<!--Firebase installations	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-installations.js"></script>
+<!--Cloud Messaging	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-messaging.js"></script>
+<!--For an optimal experience using Cloud Messaging, also add the Firebase SDK for Analytics.
+
+Cloud Storage	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+<!--Performance Monitoring
+(beta release)	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-performance.js"></script>
+<!--We also provide a standalone, lightweight Performance Monitoring SDK (via the CDN). Visit the FAQ to learn more.
+
+Realtime Database	-->
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+<!--Remote Config
+(beta release)	-->
+  <script src="script.js"></script>
+</body>
+</html>

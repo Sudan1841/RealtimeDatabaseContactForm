@@ -1,0 +1,8 @@
+{
+    "name": "contactForm",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Abdulmajid Hassan",
+    "contributors": [],
+    "dependencies": {}
+}
